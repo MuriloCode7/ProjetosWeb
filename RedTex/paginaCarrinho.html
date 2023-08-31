@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <title> RedTex | Carrinho </title>
+    <link rel="icon" href="img/icon_ico.ico" />
+    <link rel="stylesheet" href="css/padraoCss.css" />
+    <link rel="stylesheet" href="css/carrinhoCSS.css" />
+</head>
+
+<body>
+    <div id="barratopo">
+        <a href="paginaInicial.html">
+            <img class="header" src="img\header.png" alt="Logo da RedTex" />
+        </a>
+        <input class="pesquisaBox" placeholder="Pesquisar..."> </input>
+        <button class="btnPesquisa"> 
+            <img src="img/searchIcon.png" />
+        </button>
+        <div class="btnsTopo">
+            <a href="paginaCarrinho.html">
+                <figure class="figIconCarrinhoOn"> </figure>
+            </a>
+            <a href="paginaLogin.html">
+                <figure class="figIconConta"> </figure>
+            </a>
+        </div>
+    </div>
+    <div>
+        <center>
+            <h1> Produto(s) em seu carrinho </h1>
+        </center>
+    </div>
+
+    <div class="produto">
+        <figure class="figManga">
+            <img src="img/Mangas/KNY/V2.jpg" alt="Kimetsu no Yaiba vol. 2" />
+        </figure>
+        <div class="divInfoProduto">
+            <a href="Mangas/MangasKNY/KNY2.html">
+                <h2> Kimetsu no Yaiba - Vol. 2 </h2>
+            </a>
+            <div class="divQuant">
+                <center>
+                    <button onclick="this.parentNode.querySelector('#quant').stepDown()"> - </button>
+                    <input id="quant" min="1" max="10" name="quantidade" type="number">
+                    <button onclick="this.parentNode.querySelector('#quant').stepUp()"> + </button>
+                </center>
+            </div>
+            <h4> R$25,00 </h4>
+        </div>
+        
+        <button id="remover"> Remover </button>
+
+
+    </div>
+
+    <div class="rodape">
+        <p> © 2021 RedTex - Comprar Online. Comprar mangás online com segurança e qualidade </p>
+        <a href="paginaAjuda.html"> Ajuda </a>
+    </div>
+
+</body>
+
+<script src="js/carrinhoJS.js">
+</script>
+
+</html>

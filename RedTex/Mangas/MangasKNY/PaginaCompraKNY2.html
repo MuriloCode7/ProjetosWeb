@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <title> Confirmar compra | RedTex </title>
+    <link rel="icon" href="../../img/icon_ico.ico" />
+    <link rel="stylesheet" href="../../css/padraoCss.css" />
+    <link rel="stylesheet" href="../../css/compraCSS.css" />
+</head>
+
+<body>
+
+    <div id="barratopo">
+        <a href="../../paginaInicial.html">
+            <img class="header" src="../../img\header.png" alt="Logo da RedTex" />
+        </a>
+        <input class="pesquisaBox" placeholder="Pesquisar..."> </input>
+        <button class="btnPesquisa"> 
+                    <img src="../../img/searchIcon.png" />
+                </button>
+        <div class="btnsTopo">
+            <a href="../../paginaCarrinho.html">
+                <figure class="figIconCarrinho"> </figure>
+            </a>
+            <a href="../../paginaLogin.html">
+                <figure class="figIconConta"> </figure>
+            </a>
+        </div>
+    </div>
+
+    <div class="fundoTransparente">
+
+        <h2> Por favor, confirme seu endereço: </h2>
+        <div class="divDados">
+            <h4> Rua Pereira Estéfano 1721 </h4>
+            <p> São Paulo, SP - CEP 04144070 </p>
+            <a> Editar ou escolher outro </a>
+        </div>
+
+        <div class="divProduto">
+            <figure>
+                <img src="../../img/Mangas/KNY/V2.jpg" alt="Kimetsu no Yaiba Vol. 2" />
+            </figure>
+            <p> Kimetsu no Yaiba - Vol. 2 <br> Quantidade: 1 <br><br> Valor do mangá: R$25,00 </p>
+            <div id="valorNormal" hidden>
+                <p> Valor do frete: R$15,00 </p>
+                <h2> Valor total: R$40,00 </h2>
+            </div>
+            <div id="valorTurbo" hidden>
+                <p> Valor do frete: R$25,00 </p>
+                <h2> Valor total: R$50,00 </h2>
+            </div>
+        </div>
+
+        <h2 class="tipoFrete"> Selecione o tipo de entrega: </h2>
+        <div class="divTipoFrete">
+            <input name="escolhaEntrega" type="radio" id="opTurbo" value="1">
+            <label for="turbo">Turbo</label><br>
+            <p> Entrega em até 3 dias - por R$25,00</p>
+            <input name="escolhaEntrega" type="radio" id="opNormal">
+            <label for="normal">Normal</label>
+            <p> Entrega em até 7 dias - por R$15,00 </p>
+        </div>
+
+        <h2 class="formaPag"> Escolha a forma de pagamento: </h2>
+        <div class="divFormaPag">
+            <input name="escolhaFormaPag" type="radio" id="cartao">
+            <label for="cartao"> Cartão de crédito </label> <br>
+            <p> Em até 7x </p>
+            <img src="../../img/cartaoIcon.png" />
+            <div id="divDadosCartao" hidden>
+                <p> Informe o nº do cartão: </p>
+                <input type="text" placeholder="1111 2222 3333 4444" />
+                <p> Informe o nome do titular: </p>
+                <input type="text" />
+                <p> Informe a data de vencimento: </p>
+                <input type="date" />
+                <p> Informe o código de segurança: </p>
+                <input type="text" />
+            </div>
+            <input name="escolhaFormaPag" type="radio" id="boleto">
+            <label for="boleto"> Boleto </label> <br>
+            <p> Pagamento aprovado no mesmo dia! </p>
+            <img src="../../img/boletoICon.png" />
+            <input name="escolhaFormaPag" type="radio" id="PIX">
+            <label for="PIX"> PIX </label>
+            <p> Pagamento aprovado na hora! </p>
+            <img src="../../img/pixIcon.png" />
+        </div>
+
+        <center>
+            <form id="confirmarCompra">
+                <a href="../../paginaInicial.html">
+                    <button id="btnComprar"> Confirmar compra </button>
+                </a>
+            </form>
+        </center>
+
+    </div>
+
+    <div class="rodape">
+        <p> © 2021 RedTex - Comprar Online. Comprar mangás online com segurança e qualidade </p>
+        <a href="../../paginaAjuda.html"> Ajuda </a>
+    </div>
+
+</body>
+
+<script src="../../js/scriptsCompra.js"></script>
+
+</html>

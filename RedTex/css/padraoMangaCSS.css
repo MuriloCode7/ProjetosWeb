@@ -1,0 +1,179 @@
+
+.fundoTranspProd{
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 50px 100px;
+    padding: 20px 0;
+}
+
+.respiro {
+    height: 900px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.fig_capa{
+    width: 30%;
+    float: left;
+    margin: 20px 0 0 50px;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.7);
+}
+
+.fig_capa img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.divInfoProduto{
+    width: 58%;
+    margin: 20px 30px;
+    display: inline-block;
+}
+
+h1{
+    font-weight: bold;
+    color: red;
+}
+
+.nome{
+    text-align: center;
+}
+
+.valor{
+    margin: 50px 20px 0;
+}
+
+.divInfoProduto p{
+    margin: 0 20px;
+    text-align: justify;
+}
+
+h4{
+    margin: 40px 20px 0;
+}
+
+.divQuant{
+    margin: 20px 20px 0;
+    background-color: transparent;
+    border: 5px solid red;
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+#quant{
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    color: white;
+    margin: 0 10px;
+    font-size: large;
+    width: 30px;
+    -moz-appearance: textfield;
+}
+
+#quant::-webkit-outer-spin-button,
+#quant::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.divQuant button{
+    background-color: transparent;
+    color: red;
+    border: none;
+    border-radius: 10px;
+    width: 20px;
+    height: 35px;
+    text-align: center;
+    padding: 0;
+    font-size: large;
+}
+
+.divBtns{
+    width: 90%;
+    text-align: center;
+    margin: 60px auto 0;
+}
+
+.divBtns button{
+    margin: 20px 0 0 20px;
+    padding: 15px;
+    background-color: red;
+    box-shadow: 0 5px rgb(140, 0, 0);
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    color: white;
+    font-size: 15px;   
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.divBtns button:hover{
+    background-color: rgb(190, 0, 0);
+}
+
+.especificacoes{
+    margin: 50px;
+    width: 92%;
+    border-top: 2px solid red;
+    text-align: left;
+    display: inline-block;
+}
+
+.especificacoes h1{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.tituloSugestoes{
+    font-weight: bold;
+    color: red;
+    margin: 20px 0 40px;
+}
+
+.divSugestoes .bordatopo {
+    border-top: 2px solid red;
+    margin: 10px 50px;
+}
+
+.divSugestoes figure {
+    height: 220px;
+    width: 140px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 21px;
+    display: inline-block;
+    -moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.15s;
+}
+
+.divSugestoes figure:hover{
+    -moz-transform: scale(1.09);
+	-webkit-transform: scale(1.09);
+	transform: scale(1.09);
+    border: 2px solid red;
+}
+
+.divSugestoes img{
+    height: 100%;
+    width: 100%;
+}
+
+.divSessao {
+    background: #000000bf;
+    height: 350px;
+    width: 75%;
+    border: 2px solid red;
+    border-radius: 20px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.7);
+    margin: 0 40px 70px;
+}

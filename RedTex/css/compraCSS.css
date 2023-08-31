@@ -1,0 +1,179 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', sans-serif, Helvetica, sans-serif;
+    width: 100%;
+    background-size: cover;
+    background-image: url(../img/Backgrounds/bgCompra.png);
+    background-attachment: fixed;
+    color: white;
+}
+
+h2{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+h3, a{
+    font-weight: bold;
+    color: red;
+}
+
+.divDados a{
+    float: right;
+    margin: -10px 20px 0 0;
+    cursor: pointer;
+}
+
+h2{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.divDados p, h4, .divTipoFrete input, .divTipoFrete p, .divFormaPag p{
+    margin-left: 20px;
+}
+
+.divFormaPag img{
+    height: 40px;
+    float: right;
+    margin: -45px 20px 10px;
+}
+
+label{
+    color: red;
+}
+
+.divTipoFrete p, .divFormaPag p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input{
+    margin-top: 10px;
+}
+
+.divDados p{
+    margin-top: -20px;
+}
+
+.divDados, .divTipoFrete, .divFormaPag{
+    width: 60%;
+    border: 2px solid red;
+    margin-left: 30px;
+}
+
+.divFormaPag div{
+    border: 2px solid red;
+    margin-left: 30px;
+    border-radius: 10px;
+    width: 60%;
+    height: 230px;
+}
+
+.divFormaPag div p{
+    margin: 10px 0 -15px 10px;
+    font-size: 12px;
+}
+
+#cartao:checked~ #divDadosCartao{
+    display: block;
+}
+
+.divFormaPag div input {
+    width: 80%;
+    height: 10px;
+    padding: 10px 0; 
+    color: white;
+    letter-spacing: 2px;
+    margin-top: 15px; 
+    margin-left: 10px;
+    border: none;
+    border-bottom: 1px solid rgba(179, 24, 24, 0.863);
+    background-color: transparent;
+}
+
+.divDados{
+    height: 90px;
+    border-radius: 10px;
+}
+
+.divTipoFrete{
+    height: 120px;
+    border-radius: 10px;
+}
+
+.divFormaPag{
+    border-radius: 10px;
+}
+
+.divProduto{
+    margin: -94px 0 0 900px;
+    height: 400px;
+    width: 25%;
+    display: inline-block;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+.divProduto figure{
+    width: 40%;
+    margin: 10px auto 0;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.7);
+}
+
+.divProduto figure img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.divProduto p{
+    margin: 20px 30px 0;
+    text-align: justify;
+}
+
+.divProduto h2{
+    color: red;
+    margin: 20px 30px;
+}
+
+.tipoFrete{
+    margin-top: -270px;
+}
+
+#btnComprar{
+    margin: 50px 300px 30px;
+    padding: 15px;
+    background-color: red;
+    box-shadow: 0 5px rgb(140, 0, 0);
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    color: white;
+    font-size: 15px;   
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#btnComprar:hover{
+    background-color: rgb(190, 0, 0);
+}
+
+.formaPag{
+    margin-top: 40px;
+}
+
+.valorNormal p, .valorTurbo p{
+    margin-top: 0;
+    
+}
+
+#opNormal:checked~ #valorNormal{
+    display: block;
+}
+
+#opTurbo:checked~ #valorTurbo{
+    display: block;
+}

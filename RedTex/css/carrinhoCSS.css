@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', sans-serif, Helvetica, sans-serif;
+    width: 100%;
+    background-size: cover;
+    background-image: url(../img/Backgrounds/bgCarrinho.jpg);
+    background-attachment: fixed;
+    color: white;
+}
+
+.figIconCarrinhoOn{
+    background-image: url(../img/btnCarrinhoVerm.png);
+}
+
+.figManga{
+    background-size: cover;
+    height: 100%;
+    float: left;
+    margin: 10px 50px 0 10px;
+    border-radius: 10px;
+}
+
+.figManga img{
+    height: 90%;
+    border-radius: 10px;
+}
+
+.divInfoProduto{
+    width: 80%;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.divInfoProduto h2{
+    float: center;
+    font-weight: bold;
+    color: red;
+}
+
+.divInfoProduto p{
+    width: 60%;
+    float: left;
+    text-align: justify;
+    margin-top: -5px;
+}
+
+h4{
+    color: red;
+    margin-top: -5px;
+}
+
+
+.divQuant{
+    margin: 20px 0;
+    background-color: transparent;
+    border: 5px solid red;
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+#quant{
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    color: white;
+    margin: 0 10px;
+    font-size: large;
+    width: 30px;
+    -moz-appearance: textfield;
+}
+
+#quant::-webkit-outer-spin-button,
+#quant::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.divQuant button{
+    background-color: transparent;
+    color: red;
+    border: none;
+    border-radius: 10px;
+    width: 20px;
+    height: 35px;
+    text-align: center;
+    padding: 0;
+    font-size: large;
+}
+
+.produto {
+    height: 220px;
+    margin: 10px 50px 200px;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: block;
+
+}
+
+
+#remover{
+    float: right;
+    margin: -10px 20px 20px;
+    padding-top: 5px;
+    background-color: red;
+    box-shadow: 0 5px rgb(140, 0, 0);
+    border: none;
+    border-radius: 10px;
+    width: 90px;
+    height: 30px;
+    color: white;
+    font-size: 15px;   
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#remover:hover{
+    background-color: rgb(190, 0, 0);
+}
+

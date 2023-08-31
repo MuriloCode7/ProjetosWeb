@@ -1,0 +1,115 @@
+
+#barratopo {
+    height: 60px;
+    border-bottom: 2px solid red;
+    background: black;
+    margin: 0;
+}
+
+.header {
+    width: 130px;
+    top: 50%;
+    float:left;
+    margin-left: 60px;
+}
+
+.pesquisaBox {
+    background-color: black;
+    border-radius: 2px;
+    border: 1px solid white;
+    height: 40px;
+    width: 500px;
+    float: left;
+    margin-left: 350px;
+    margin-top: 7px;
+
+}
+
+.btnPesquisa {
+    height: 45px;
+    display: inline-block;
+    margin-top: 7px;
+    background-color: #FD0100;
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+}
+
+.btnPesquisa:hover{
+    border: 1px solid white;
+}
+
+.btnPesquisa img{
+    height: 70%;
+    display: table-cell;
+	vertical-align: middle;
+}
+
+.btnsTopo{
+    margin-right: 50px;
+}
+
+.btnsTopo figure{
+    margin-top: -42px;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    background-size: cover;
+    float: right;  
+}
+
+.figIconCarrinho{
+    background-image: url(../img/btnCarrinhoBranco.png);
+}
+
+.figIconCarrinho:hover{
+    background-image: url(../img/btnCarrinhoVerm.png);
+}
+
+.figIconConta{
+    background-image: url(../img/btnContaBranco.png);
+}
+
+.figIconConta:hover{
+    background-image: url(../img/btnContaVermelho.png);
+}
+
+.fundoTransparente{
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 50px;
+    padding: 20px 0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.rodape{
+    height: 60px;
+    border-top: 2px solid red;
+    background: black;
+    bottom: 0;
+}
+
+.rodape p{
+    font-size: small;
+    margin-top: 23px;
+    margin-left: 20px;
+}
+
+.rodape a{
+    color: red;
+    float: right;
+    margin-top: -30px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.rodape a:hover{
+    text-decoration: underline;
+}

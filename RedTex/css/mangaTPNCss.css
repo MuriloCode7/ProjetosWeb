@@ -1,0 +1,12 @@
+body{
+    font-family: 'Lucida Sans', Helvetica, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-size: cover;
+    background-image: url(../img/Backgrounds/bgTPN.png);
+    background-attachment: fixed;
+}

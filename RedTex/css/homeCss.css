@@ -1,0 +1,202 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', sans-serif, Helvetica, sans-serif;
+    width: 100%;
+    background-size: cover;
+    background-image: url(../img/Backgrounds/bgHome.jpg);
+    background-attachment: fixed;
+    color: white;
+}
+
+.respiro {
+    height: 900px;
+    width: 100%;
+}
+
+.carrossel{
+    height: 280px;
+    width: 1200px;
+    margin: 30px auto;
+    overflow: hidden;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+}
+
+.carrossel ul{
+    margin-top: -13px;
+    border-radius: 20px;
+    display: flex;
+    list-style: none;
+    height: 311px;
+    width: 2400px;
+}
+
+.carrossel li{
+    position: relative;
+    animation: slide 30s infinite ease-in-out;
+}
+
+@keyframes slide{
+    0% {left: -40px}
+    10% {left: -40px}
+    15% {left: -1240px}
+    25% {left: -1240px}
+    30% {left: -2440px}
+    40% {left: -2440px}
+    45% {left: -3640px}
+    55% {left: -3640px}
+    60% {left: -4840px}
+    70% {left: -4840px}
+    75% {left: -6040px}
+    100% {left: -6040px}
+}
+
+.figPosterMangas{
+    background-size: cover;
+    height: 635px;
+    width: 42%;
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.7);
+    -moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.figPosterMangas:hover{
+    -moz-transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+.figPosterMangas img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.redtex{
+    width: 40%;
+    margin-left: 50px;
+    margin-top: 150px;
+    display: inline-block;
+}
+
+.criador{
+    font-size: large;
+    list-style: none;
+    list-style-image: url(../img/instagram.png);
+}
+
+.criadores{
+    height: 50px;
+    width: 40%;
+    display: inline-block;
+}
+
+.criadores2{
+    margin-right: 60px;
+    float: right;
+}
+
+.textoInicio{
+    height: 317px;
+    width: 40%;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 49px;
+    background: transparent;
+    border-radius: 10px;
+}
+
+.textoInicio p{
+    text-align: center;
+}
+
+.divCategorias div {
+    background: #000000bf;
+    height: 380px;
+    border: 2px solid red;
+    border-radius: 20px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.7);
+}
+
+.divCategorias div h4{
+    color: red;
+    text-decoration: line-through;
+    margin-bottom: -10px;
+}
+
+.divSessao{
+    margin: 0 40px 70px;
+}
+
+.divUltimaSessao{
+    margin: 0 40px 10px;
+}
+
+#KimetsuNoYaiba{
+    margin: 300px auto 20px;
+}
+
+h2{
+    text-align: center;
+    margin: 20px 0 5px;
+    color: white;
+}
+
+.divCategorias figure {
+    height: 240px;
+    width: 160px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 21px;
+    display: inline-block;
+    -moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.15s;
+}
+
+.divCategorias figure:hover{
+    -moz-transform: scale(1.09);
+	-webkit-transform: scale(1.09);
+	transform: scale(1.09);
+    border: 2px solid red;
+}
+
+.divCategorias img{
+    height: 100%;
+    width: 100%;
+}
+
+.divCategorias h3{
+    font-weight:900;
+    margin-top: 13px;
+}
+
+h4 {
+    color: white;
+    text-decoration: line-through;
+    margin-bottom: -15px;
+    margin-top: 10px;
+}
+
+.subir{
+    border: none;
+    background-color: red;
+    box-shadow: 0 5px rgb(140, 0, 0);
+    color: white;
+    width: 250px;
+    height: 50px;
+    margin: 20px auto;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.subir:hover{
+    background-color: rgb(190, 0, 0);
+}
+
