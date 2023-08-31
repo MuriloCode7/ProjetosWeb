@@ -1,6 +1,4 @@
 # ProjetosWeb
 Sites Desenvolvidos: 
 
-> RedTex: Venda de mangás (HQ's)
-
-- O projeto se encontra hospedado no drive devido ao tamanho
+> RedTex: Loja de venda de mangás (HQ's), feita apenas HTML e CSS puro com algumas funções em JS.
